@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background: url(bg.webp) no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    background: url(bg.webp);
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+    padding: 9px;
+    box-shadow: 2px 2px 10px 2px black;
+    margin-bottom: 20px;
+    font-size: 45px;
+}
+
+#main {
+    width: 600px;
+    padding-bottom: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    text-align: center;
+}
+
+#in {
+    width: 300px;
+    height: 40px;
+    font-size: 23px;
+    /* font-weight: bold; */
+    box-shadow: 1px 1px 10px 1px grey;
+    border: 1px solid rgb(170, 76, 247);
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+#btn {
+    height: 40px;
+    padding: 0px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: greenyellow;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 1px 1px 10px 1px grey;
+    margin-bottom: 20px;
+    cursor: pointer;
+    opacity: 0.6;
+    pointer-events: none;
+}
+
+#btn.active {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+ul {
+    text-align: left;
+    display: grid;
+    justify-content: center;
+    list-style-type: none;
+    max-height: 200px;
+    overflow-y: auto;
+    padding-top: 10px;
+}
+
+li {
+    width: 350px;
+    height: 39px;
+    border: none;
+    margin-bottom: 10px;
+    display: flex;
+    position: relative;
+    padding: 0px 15px;
+    background-color: rgb(237, 237, 237);
+    line-height: 35px;
+    overflow: hidden;
+    font-size: 25px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 10px 2px rgb(3, 3, 3);
+    font-weight: bold;
+
+}
+
+li>button {
+    cursor: pointer;
+    position: absolute;
+    right: 0px;
+    height: 39px;
+    width: 40px;
+    background-color: rgb(255, 81, 81);
+    border: none;
+}
+
+
+
+#foot {
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+#btn3 {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 9px 9px;
+    background-color: rgb(246, 98, 98);
+    border-radius: 10px;
+    border: none;
+    box-shadow: 1px 1px 10px 1px grey;
+    margin-bottom: 20px;
+    cursor: pointer;
+    opacity: 0.6;
+    pointer-events: none;
+}
+
+#btn3.active1 {
+    opacity: 1;
+    pointer-events: auto;
+}
